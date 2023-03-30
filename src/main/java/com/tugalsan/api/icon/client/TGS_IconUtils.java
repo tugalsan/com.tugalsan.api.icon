@@ -21,6 +21,10 @@ public class TGS_IconUtils {
         return "icon icon-last";
     }
 
+    public static String CLASS_SIGMA() {
+        return "icon icon-sigma";
+    }
+
     public static String CLASS_PAGE_BREAK() {
         return "icon icon-page-break";
     }
