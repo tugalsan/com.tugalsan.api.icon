@@ -125,6 +125,14 @@ public class TGS_IconUtils {
         return "icon icon-address-book";
     }
 
+    public static String CLASS_BOOK() {
+        return "icon icon-book";
+    }
+
+    public static String CLASS_BOOKS() {
+        return "icon icon-books";
+    }
+
     public static String CLASS_ENVELOP() {
         return "icon icon-envelop";
     }
