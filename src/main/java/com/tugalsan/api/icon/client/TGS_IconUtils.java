@@ -3,6 +3,7 @@ package com.tugalsan.api.icon.client;
 import com.tugalsan.api.network.client.*;
 import com.tugalsan.api.string.client.*;
 
+//https://fontawesome.com/search?o=r&m=free&f=brands 
 public class TGS_IconUtils {
 
     public static String CLASS_ARROW_UP() {
