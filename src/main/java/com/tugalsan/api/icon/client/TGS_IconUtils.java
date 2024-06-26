@@ -438,8 +438,8 @@ public class TGS_IconUtils {
         var empty = "";
         var spc = TGS_NetworkHTMLUtils.HTML_SPACE();
         if (optional_text == null || optional_text.toString().isEmpty()) {
-            return TGS_StringUtils.concat((spaceFront ? spc : empty), "<span class=\"", fullIconClassName, "\"></span>", (spaceAfter ? spc : empty));
+            return TGS_StringUtils.cmn().concat((spaceFront ? spc : empty), "<span class=\"", fullIconClassName, "\"></span>", (spaceAfter ? spc : empty));
         }
-        return TGS_StringUtils.concat((spaceFront ? spc : empty), "<span class=\"", fullIconClassName, "\"></span>", spc, optional_text, (spaceAfter ? spc : empty));
+        return TGS_StringUtils.cmn().concat((spaceFront ? spc : empty), "<span class=\"", fullIconClassName, "\"></span>", spc, optional_text, (spaceAfter ? spc : empty));
     }
 }
