@@ -130,6 +130,10 @@ public class TGS_IconUtils {
         return "icon icon-book";
     }
 
+    public static String CLASS_ROCKET() {
+        return "icon icon-rocket";
+    }
+
     public static String CLASS_BOOKS() {
         return "icon icon-books";
     }
@@ -376,10 +380,6 @@ public class TGS_IconUtils {
 
     public static String CLASS_CHECKBOX_UNCHECKED() {
         return "icon icon-checkbox-unchecked";
-    }
-
-    public static String CLASS_ROCKET() {
-        return "icon icon-rocket";
     }
 
     public static String CLASS_RADIO_CHECKED() {
